@@ -1,0 +1,291 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 07 Oct 2024 11:04:18 at https://jsonformatter.org/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://jsonformatter.org/ -O1 "C:\Users\LongLD\Desktop\html\test" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:05:24	Warning: 	Moved Permanently for jsonformatter.org/robots.txt
+11:05:24	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/robots.txt and https://jsonformatter.org/robots.txt
+11:05:24	Warning: 	Warning moved treated for jsonformatter.org/robots.txt (real one is https://jsonformatter.org/robots.txt)
+11:05:24	Warning: 	Moved Permanently for jsonformatter.org/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:05:24	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json and https://jsonformatter.org/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:05:24	Warning: 	File has moved from jsonformatter.org/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json to https://jsonformatter.org/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:36	Error: 	"Not Found" (404) at link https://jsonformatter.org/dist/3.8/fonts/glyphicons-halflings-regular.eot (from https://jsonformatter.org/dist/3.8/css/jsonmain.css)
+11:06:36	Error: 	"Not Found" (404) at link https://jsonformatter.org/dist/3.8/fonts/glyphicons-halflings-regular.eot? (from https://jsonformatter.org/dist/3.8/css/jsonmain.css)
+11:06:36	Error: 	"Not Found" (404) at link https://jsonformatter.org/dist/3.8/fonts/glyphicons-halflings-regular.woff2 (from https://jsonformatter.org/dist/3.8/css/jsonmain.css)
+11:06:36	Error: 	"Not Found" (404) at link https://jsonformatter.org/dist/3.8/fonts/glyphicons-halflings-regular.woff (from https://jsonformatter.org/dist/3.8/css/jsonmain.css)
+11:06:36	Error: 	"Not Found" (404) at link https://jsonformatter.org/dist/3.8/fonts/glyphicons-halflings-regular.ttf (from https://jsonformatter.org/dist/3.8/css/jsonmain.css)
+11:06:36	Error: 	"Not Found" (404) at link https://jsonformatter.org/dist/3.8/fonts/glyphicons-halflings-regular.svg (from https://jsonformatter.org/dist/3.8/css/jsonmain.css)
+11:06:38	Warning: 	Moved Permanently for jsonformatter.org/xml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:38	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/xml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample and https://jsonformatter.org/xml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:38	Warning: 	File has moved from jsonformatter.org/xml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample to https://jsonformatter.org/xml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:38	Error: 	"Not Found" (404) at link https://jsonformatter.org/data.js.txt (from https://jsonformatter.org/jsbeautifier)
+11:06:38	Warning: 	Moved Permanently for jsonformatter.org/html-formatter/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:38	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/html-formatter/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html and https://jsonformatter.org/html-formatter/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:38	Warning: 	File has moved from jsonformatter.org/html-formatter/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html to https://jsonformatter.org/html-formatter/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:38	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/jsonformatter.png (from https://jsonformatter.org/recentLinksPage/json)
+11:06:50	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/json/10 (from https://jsonformatter.org/recentLinksPage/json)
+11:06:50	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/json/20 (from https://jsonformatter.org/recentLinksPage/json)
+11:06:50	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/json/30 (from https://jsonformatter.org/recentLinksPage/json)
+11:06:50	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/json/357180 (from https://jsonformatter.org/recentLinksPage/json)
+11:06:50	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-csv.png (from https://jsonformatter.org/json-to-csv)
+11:06:50	Warning: 	Moved Permanently for jsonformatter.org/json-editor/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/json-editor/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json and https://jsonformatter.org/json-editor/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	File has moved from jsonformatter.org/json-editor/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json to https://jsonformatter.org/json-editor/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Moved Permanently for jsonformatter.org/json-viewer/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/json-viewer/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json and https://jsonformatter.org/json-viewer/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	File has moved from jsonformatter.org/json-viewer/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json to https://jsonformatter.org/json-viewer/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Moved Permanently for jsonformatter.org/json-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/json-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json and https://jsonformatter.org/json-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	File has moved from jsonformatter.org/json-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json to https://jsonformatter.org/json-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Moved Permanently for jsonformatter.org/json-minify/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/json-minify/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json and https://jsonformatter.org/json-minify/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	File has moved from jsonformatter.org/json-minify/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json to https://jsonformatter.org/json-minify/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Moved Permanently for jsonformatter.org/json-reader/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/json-reader/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json and https://jsonformatter.org/json-reader/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:50	Warning: 	File has moved from jsonformatter.org/json-reader/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json to https://jsonformatter.org/json-reader/?url=https://gist.githubusercontent.com/jimmibond/9205480889e19c0de347/raw/sample.json
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-one-line.png (from https://jsonformatter.org/json-to-one-line)
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-compare.png (from https://jsonformatter.org/json-compare)
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-tsv.png (from https://jsonformatter.org/json-to-tsv)
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-string-converter.png (from https://jsonformatter.org/xml-to-string-converter)
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-xml.png (from https://jsonformatter.org/yaml-to-xml)
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-csv.png (from https://jsonformatter.org/yaml-to-csv)
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/csv-to-json/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/csv-to-json/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv and https://jsonformatter.org/csv-to-json/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv
+11:06:51	Warning: 	File has moved from jsonformatter.org/csv-to-json/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv to https://jsonformatter.org/csv-to-json/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/csv-to-html.png (from https://jsonformatter.org/csv-to-html)
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/csv-to-html/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/csv-to-html/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv and https://jsonformatter.org/csv-to-html/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv
+11:06:51	Warning: 	File has moved from jsonformatter.org/csv-to-html/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv to https://jsonformatter.org/csv-to-html/?url=https://gist.githubusercontent.com/cbmgit/ce40a2a14507fae8d7329790bfa5180a/raw/7ee8551d523c689e95c0e8c3338c5ff8608d19f2/sample.csv
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-minify.png (from https://jsonformatter.org/xml-minify)
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/xml-minify/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/xml-minify/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample and https://jsonformatter.org/xml-minify/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	File has moved from jsonformatter.org/xml-minify/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample to https://jsonformatter.org/xml-minify/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/xml-viewer/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/xml-viewer/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample and https://jsonformatter.org/xml-viewer/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	File has moved from jsonformatter.org/xml-viewer/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample to https://jsonformatter.org/xml-viewer/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/xml-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/xml-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample and https://jsonformatter.org/xml-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	File has moved from jsonformatter.org/xml-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample to https://jsonformatter.org/xml-pretty-print/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/xml-validator/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/xml-validator/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample and https://jsonformatter.org/xml-validator/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	File has moved from jsonformatter.org/xml-validator/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample to https://jsonformatter.org/xml-validator/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/xml-editor/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/xml-editor/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample and https://jsonformatter.org/xml-editor/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	File has moved from jsonformatter.org/xml-editor/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample to https://jsonformatter.org/xml-editor/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/xml-parser/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/xml-parser/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample and https://jsonformatter.org/xml-parser/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Warning: 	File has moved from jsonformatter.org/xml-parser/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample to https://jsonformatter.org/xml-parser/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/xmlsample
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/wsdl-formatter.png (from https://jsonformatter.org/wsdl-formatter)
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/soap-formatter.png (from https://jsonformatter.org/soap-formatter)
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/yaml-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/yaml-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample and https://jsonformatter.org/yaml-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	File has moved from jsonformatter.org/yaml-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample to https://jsonformatter.org/yaml-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/yaml-viewer/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/yaml-viewer/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample and https://jsonformatter.org/yaml-viewer/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	File has moved from jsonformatter.org/yaml-viewer/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample to https://jsonformatter.org/yaml-viewer/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/yaml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/yamlsample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/yaml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/yamlsample and https://jsonformatter.org/yaml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/yamlsample
+11:06:51	Warning: 	File has moved from jsonformatter.org/yaml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/yamlsample to https://jsonformatter.org/yaml-formatter/?url=https://gist.githubusercontent.com/jimmibond/8b75d0afcf249601174f1f504664072a/raw/c28e51ac26861d39f900d88e3c9fe2490374dbd9/yamlsample
+11:06:51	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-parser.png (from https://jsonformatter.org/yaml-parser)
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/yaml-parser/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/yaml-parser/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample and https://jsonformatter.org/yaml-parser/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	File has moved from jsonformatter.org/yaml-parser/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample to https://jsonformatter.org/yaml-parser/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/yaml-sample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/html-pretty-print/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/html-pretty-print/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html and https://jsonformatter.org/html-pretty-print/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:51	Warning: 	File has moved from jsonformatter.org/html-pretty-print/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html to https://jsonformatter.org/html-pretty-print/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/html-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/html-sample
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/html-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/html-sample and https://jsonformatter.org/html-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/html-sample
+11:06:51	Warning: 	File has moved from jsonformatter.org/html-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/html-sample to https://jsonformatter.org/html-validator/?url=https://gist.githubusercontent.com/jimmibond/6c299c959bda3e2d32637dc529283af4/raw/63b544c79eca24746303ae12bcd75ca34250de36/html-sample
+11:06:51	Warning: 	Moved Permanently for jsonformatter.org/html-viewer/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:51	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/html-viewer/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html and https://jsonformatter.org/html-viewer/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:51	Warning: 	File has moved from jsonformatter.org/html-viewer/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html to https://jsonformatter.org/html-viewer/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:52	Warning: 	Moved Permanently for jsonformatter.org/html-editor/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:52	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/html-editor/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html and https://jsonformatter.org/html-editor/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:52	Warning: 	File has moved from jsonformatter.org/html-editor/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html to https://jsonformatter.org/html-editor/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:52	Warning: 	Moved Permanently for jsonformatter.org/minify-html/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:52	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/minify-html/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html and https://jsonformatter.org/minify-html/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:52	Warning: 	File has moved from jsonformatter.org/minify-html/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html to https://jsonformatter.org/minify-html/?url=https://gist.githubusercontent.com/cbmgit/97f3fe627004a2e3df81a54129d6e917/raw/sample.html
+11:06:52	Warning: 	Moved Permanently for jsonformatter.org/jade-to-html/?url=https://gist.githubusercontent.com/jimmibond/ccf8f11b0ed14aab1b5c454e8ad0bd24/raw/sample.jade
+11:06:52	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/jade-to-html/?url=https://gist.githubusercontent.com/jimmibond/ccf8f11b0ed14aab1b5c454e8ad0bd24/raw/sample.jade and https://jsonformatter.org/jade-to-html/?url=https://gist.githubusercontent.com/jimmibond/ccf8f11b0ed14aab1b5c454e8ad0bd24/raw/sample.jade
+11:06:52	Warning: 	File has moved from jsonformatter.org/jade-to-html/?url=https://gist.githubusercontent.com/jimmibond/ccf8f11b0ed14aab1b5c454e8ad0bd24/raw/sample.jade to https://jsonformatter.org/jade-to-html/?url=https://gist.githubusercontent.com/jimmibond/ccf8f11b0ed14aab1b5c454e8ad0bd24/raw/sample.jade
+11:06:52	Warning: 	Moved Permanently for jsonformatter.org/html-to-jade/?url=https://gist.githubusercontent.com/jimmibond/c26185a77c205cf8f15c2af3b187f838/raw/sample.html
+11:06:52	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/html-to-jade/?url=https://gist.githubusercontent.com/jimmibond/c26185a77c205cf8f15c2af3b187f838/raw/sample.html and https://jsonformatter.org/html-to-jade/?url=https://gist.githubusercontent.com/jimmibond/c26185a77c205cf8f15c2af3b187f838/raw/sample.html
+11:06:52	Warning: 	File has moved from jsonformatter.org/html-to-jade/?url=https://gist.githubusercontent.com/jimmibond/c26185a77c205cf8f15c2af3b187f838/raw/sample.html to https://jsonformatter.org/html-to-jade/?url=https://gist.githubusercontent.com/jimmibond/c26185a77c205cf8f15c2af3b187f838/raw/sample.html
+11:06:52	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/tools.png (from https://jsonformatter.org/tools)
+11:07:00	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/formatter-tools-online.png (from https://jsonformatter.org/formatter-tools-online)
+11:07:00	Warning: 	Moved Permanently for jsonformatter.org/json5-formatter/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5
+11:07:00	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/json5-formatter/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5 and https://jsonformatter.org/json5-formatter/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5
+11:07:00	Warning: 	File has moved from jsonformatter.org/json5-formatter/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5 to https://jsonformatter.org/json5-formatter/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5
+11:07:00	Warning: 	Moved Permanently for jsonformatter.org/json5-validator/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5
+11:07:00	Warning: 	Redirected link is identical because of 'URL Hack' option: jsonformatter.org/json5-validator/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5 and https://jsonformatter.org/json5-validator/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5
+11:07:00	Warning: 	File has moved from jsonformatter.org/json5-validator/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5 to https://jsonformatter.org/json5-validator/?url=https://gist.githubusercontent.com/cbmgit/347474e8f3887f99d250dfec19df1a61/raw/2348c047bc7c92840cea18f8c34e070642dabb5e/sample.json5
+11:07:00	Error: 	"Bad Request" (400) at link https://jsonformatter.org/img/stylus`-to-less.png (from https://jsonformatter.org/stylus-to-less)
+11:07:00	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/stylus-to-scss.png (from https://jsonformatter.org/stylus-to-scss)
+11:07:00	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/stylus-to-sass.png (from https://jsonformatter.org/stylus-to-sass)
+11:07:00	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/less-to-scss.png (from https://jsonformatter.org/less-to-scss)
+11:07:00	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/less-to-sass.png (from https://jsonformatter.org/less-to-sass)
+11:07:00	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/less-to-stylus.png (from https://jsonformatter.org/less-to-stylus)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/scss-to-less.png (from https://jsonformatter.org/scss-to-less)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/scss-to-sass.png (from https://jsonformatter.org/scss-to-sass)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/scss-to-stylus.png (from https://jsonformatter.org/scss-to-stylus)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/sass-to-less.png (from https://jsonformatter.org/sass-to-less)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/sass-to-scss.png (from https://jsonformatter.org/sass-to-scss)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/sass-to-stylus.png (from https://jsonformatter.org/sass-to-stylus)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-python.png (from https://jsonformatter.org/json-to-python)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-objectivec.png (from https://jsonformatter.org/json-to-objectivec)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-objectivec.png (from https://jsonformatter.org/xml-to-objectivec)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-jsonschema.png (from https://jsonformatter.org/json-to-jsonschema)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-jsonschema.png (from https://jsonformatter.org/xml-to-jsonschema)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-swift.png (from https://jsonformatter.org/json-to-swift)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-swift.png (from https://jsonformatter.org/xml-to-swift)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-go.png (from https://jsonformatter.org/json-to-go)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-go.png (from https://jsonformatter.org/xml-to-go)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-rust.png (from https://jsonformatter.org/xml-to-rust)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-crystal.png (from https://jsonformatter.org/json-to-crystal)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-crystal.png (from https://jsonformatter.org/xml-to-crystal)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-cpp.png (from https://jsonformatter.org/json-to-cpp)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-javascriptproptypes.png (from https://jsonformatter.org/json-to-javascriptproptypes)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-javascriptproptypes.png (from https://jsonformatter.org/xml-to-javascriptproptypes)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-flow.png (from https://jsonformatter.org/json-to-flow)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-flow.png (from https://jsonformatter.org/xml-to-flow)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-kotlin.png (from https://jsonformatter.org/json-to-kotlin)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-kotlin.png (from https://jsonformatter.org/xml-to-kotlin)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-elm.png (from https://jsonformatter.org/json-to-elm)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-elm.png (from https://jsonformatter.org/xml-to-elm)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-ruby.png (from https://jsonformatter.org/json-to-ruby)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-ruby.png (from https://jsonformatter.org/xml-to-ruby)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-dart.png (from https://jsonformatter.org/json-to-dart)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-dart.png (from https://jsonformatter.org/xml-to-dart)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-pike.png (from https://jsonformatter.org/json-to-pike)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-pike.png (from https://jsonformatter.org/xml-to-pike)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-haskell.png (from https://jsonformatter.org/json-to-haskell)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/xml-to-haskell.png (from https://jsonformatter.org/xml-to-haskell)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/angular-formatter.png (from https://jsonformatter.org/angular-formatter)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/vue-formatter.png (from https://jsonformatter.org/vue-formatter)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/less-formatter.png (from https://jsonformatter.org/less-formatter)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/scss-formatter.png (from https://jsonformatter.org/scss-formatter)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/typescript-formatter.png (from https://jsonformatter.org/typescript-formatter)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/glimmer-formatter.png (from https://jsonformatter.org/glimmer-formatter)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-to-html-table.png (from https://jsonformatter.org/json-to-html-table)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/bxss.me/9ec57f (from https://jsonformatter.org/recentLinksPage/xml)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/c:/windows/win.ini/5bfe95 (from https://jsonformatter.org/recentLinksPage/xml)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org//b0aea6 (from https://jsonformatter.org/recentLinksPage/xml)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org//etc/shells/56e609 (from https://jsonformatter.org/recentLinksPage/xml)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/http://bxss.me/t/fit.txt?.jpg/4c8105 (from https://jsonformatter.org/recentLinksPage/xml)
+11:07:01	Error: 	"Not Found" (404) at link https://jsonformatter.org/Http://bxss.me/t/fit.txt/ca0475 (from https://jsonformatter.org/recentLinksPage/xml)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/html/10 (from https://jsonformatter.org/recentLinksPage/html)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/html/20 (from https://jsonformatter.org/recentLinksPage/html)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/html/30 (from https://jsonformatter.org/recentLinksPage/html)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/html/26720 (from https://jsonformatter.org/recentLinksPage/html)
+11:07:14	Error: 	"Bad Request" (400) at link https://jsonformatter.org/@@0U6t3/f42721 (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:14	Error: 	"Bad Request" (400) at link https://jsonformatter.org/yaml-formatter%2527%2522/'/ (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:14	Error: 	"Bad Request" (400) at link https://jsonformatter.org/yaml-formatter' (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:14	Error: 	"Bad Request" (400) at link https://jsonformatter.org/yaml-formatter'||DBMS_PIPE.REC/b4edfd (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/yaml/10 (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/yaml/20 (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/yaml/30 (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:14	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/yaml/3100 (from https://jsonformatter.org/recentLinksPage/yaml)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/server-header-checker.png (from https://jsonformatter.org/server-header-checker)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/json-tree.png (from https://jsonformatter.org/json-tree)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-java.png (from https://jsonformatter.org/yaml-to-java)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-python.png (from https://jsonformatter.org/yaml-to-python)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-jsonschema.png (from https://jsonformatter.org/yaml-to-jsonschema)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-objectivec.png (from https://jsonformatter.org/yaml-to-objectivec)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-csharp.png (from https://jsonformatter.org/yaml-to-csharp)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-cpp.png (from https://jsonformatter.org/yaml-to-cpp)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-swift.png (from https://jsonformatter.org/yaml-to-swift)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-go.png (from https://jsonformatter.org/yaml-to-go)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-rust.png (from https://jsonformatter.org/yaml-to-rust)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-crystal.png (from https://jsonformatter.org/yaml-to-crystal)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-typescript.png (from https://jsonformatter.org/yaml-to-typescript)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-javascriptproptypes.png (from https://jsonformatter.org/yaml-to-javascriptproptypes)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-flow.png (from https://jsonformatter.org/yaml-to-flow)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-kotlin.png (from https://jsonformatter.org/yaml-to-kotlin)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-elm.png (from https://jsonformatter.org/yaml-to-elm)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-ruby.png (from https://jsonformatter.org/yaml-to-ruby)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-dart.png (from https://jsonformatter.org/yaml-to-dart)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-pike.png (from https://jsonformatter.org/yaml-to-pike)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/img/yaml-to-haskell.png (from https://jsonformatter.org/yaml-to-haskell)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/1yrphmgdpgulaszriylqiipemefmac/dc2845 (from https://jsonformatter.org/recentLinksPage/xml/10)
+11:07:15	Error: 	"Not Found" (404) at link https://jsonformatter.org/http://dicrpdbjmemujemfyopp.zz/c59ce0 (from https://jsonformatter.org/recentLinksPage/xml/10)
+11:07:18	Error: 	"Forbidden" (403) at link https://jsonformatter.org/${${:::::::::::::::::-j}ndi:dn/4d9779 (from https://jsonformatter.org/recentLinksPage/xml/20)
+11:07:18	Error: 	"Not Found" (404) at link https://jsonformatter.org/xml-viewer9267189/4ffdb2 (from https://jsonformatter.org/recentLinksPage/xml/20)
+11:07:18	Error: 	"Bad Request" (400) at link https://jsonformatter.org/' (from https://jsonformatter.org/recentLinksPage/xml/20)
+11:07:18	Error: 	"Forbidden" (403) at link https://jsonformatter.org/${j${::-n}di:dns${::-:}${::-/}/2f464f (from https://jsonformatter.org/recentLinksPage/xml/20)
+11:07:22	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/60 (from https://jsonformatter.org/recentLinksPage/xml/30)
+11:07:23	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/16750 (from https://jsonformatter.org/recentLinksPage/xml/16760)
+11:07:23	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/16730 (from https://jsonformatter.org/recentLinksPage/xml/16760)
+11:07:23	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/16740 (from https://jsonformatter.org/recentLinksPage/xml/16760)
+11:07:23	Error: 	"Not Found" (404) at link https://jsonformatter.org/jsbeautifier/dist/js/vendor/FileSaver.min.js (from https://jsonformatter.org/jsbeautifier/7bc5e0)
+11:07:24	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/70 (from https://jsonformatter.org/recentLinksPage/xml/40)
+11:07:46	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-viewer'> (from https://jsonformatter.org/recentLinksPage/xml/100)
+11:08:27	Error: 	"Bad Request" (400) at link https://jsonformatter.org/@@WCzDU/944c8a (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-json%2527%2522/'/ (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-json' (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-json'||DBMS_PIPE.RECEIV/3011c1 (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-jsonK2uq552Q')) OR 98=(/46e03b (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-jsonOFvHOJ0D') OR 531=(/932b00 (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-jsonYjjEsH7l' OR 138=(S/242d02 (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-jsonOcFK5Gyc'; waitfor /d15307 (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-json-1 waitfor delay '0/069553 (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:27	Error: 	"Bad Request" (400) at link https://jsonformatter.org/(select(0)from(select(sleep(15/87d84e (from https://jsonformatter.org/recentLinksPage/xml/210)
+11:08:30	Error: 	"Not Found" (404) at link https://jsonformatter.org/xml-to-json0 (from https://jsonformatter.org/recentLinksPage/xml/220)
+11:08:30	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-json0'XOR(if(now()=sysd/0bcd44 (from https://jsonformatter.org/recentLinksPage/xml/220)
+11:08:30	Error: 	"Bad Request" (400) at link https://jsonformatter.org/if(now()=sysdate(),sleep(15),0/1556c4 (from https://jsonformatter.org/recentLinksPage/xml/220)
+11:09:13	Error: 	"Not Found" (404) at link https://jsonformatter.org/xml-to-json9984569/60f041 (from https://jsonformatter.org/recentLinksPage/xml/340)
+11:09:13	Error: 	"Not Found" (404) at link https://jsonformatter.org//c35e5d (from https://jsonformatter.org/recentLinksPage/xml/350)
+11:09:13	Error: 	"Not Found" (404) at link https://jsonformatter.org//etc/shells/0a3b59 (from https://jsonformatter.org/recentLinksPage/xml/350)
+11:09:13	Error: 	"Not Found" (404) at link https://jsonformatter.org/http://bxss.me/t/fit.txt?.jpg/b96cb3 (from https://jsonformatter.org/recentLinksPage/xml/350)
+11:09:13	Error: 	"Not Found" (404) at link https://jsonformatter.org/Http://bxss.me/t/fit.txt/10d07e (from https://jsonformatter.org/recentLinksPage/xml/350)
+11:09:13	Error: 	"Not Found" (404) at link https://jsonformatter.org/1yrphmgdpgulaszriylqiipemefmac/332f6b (from https://jsonformatter.org/recentLinksPage/xml/350)
+11:09:13	Error: 	"Not Found" (404) at link https://jsonformatter.org/http://dicrpdbjmemujemfyopp.zz/137b8f (from https://jsonformatter.org/recentLinksPage/xml/350)
+11:09:26	Error: 	"Not Found" (404) at link https://jsonformatter.org/bxss.me/t/xss.html?%00/268746 (from https://jsonformatter.org/recentLinksPage/xml/380)
+11:09:26	Error: 	"Not Found" (404) at link https://jsonformatter.org/HttP://bxss.me/t/xss.html?%00/7ae2e0 (from https://jsonformatter.org/recentLinksPage/xml/380)
+11:09:39	Error: 	"Forbidden" (403) at link https://jsonformatter.org/${${:::::::::::::::::-j}ndi:dn/b8fd33 (from https://jsonformatter.org/recentLinksPage/xml/410)
+11:09:42	Error: 	"Forbidden" (403) at link https://jsonformatter.org/${j${::-n}di:dns${::-:}${::-/}/34a7b9 (from https://jsonformatter.org/recentLinksPage/xml/420)
+11:10:00	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-json'> (from https://jsonformatter.org/recentLinksPage/xml/470)
+11:10:38	Error: 	"Bad Request" (400) at link https://jsonformatter.org/@@dEUsQ/bdcdd3 (from https://jsonformatter.org/recentLinksPage/xml/570)
+11:10:38	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-csv%2527%2522/'/ (from https://jsonformatter.org/recentLinksPage/xml/570)
+11:10:38	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-csv' (from https://jsonformatter.org/recentLinksPage/xml/570)
+11:10:38	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-csv'||DBMS_PIPE.RECEIVE/b99802 (from https://jsonformatter.org/recentLinksPage/xml/570)
+11:10:39	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-csvzWnOetLG')) OR 41=(S/8247b9 (from https://jsonformatter.org/recentLinksPage/xml/570)
+11:10:42	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-csvsU8pTG03') OR 865=(S/271edb (from https://jsonformatter.org/recentLinksPage/xml/580)
+11:10:42	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-csvR61pLoMb' OR 465=(SE/c57b7b (from https://jsonformatter.org/recentLinksPage/xml/580)
+11:10:42	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-csv8OsdevaU'; waitfor d/cba55a (from https://jsonformatter.org/recentLinksPage/xml/580)
+11:10:45	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-csv-1 waitfor delay '0:/388ad7 (from https://jsonformatter.org/recentLinksPage/xml/590)
+11:10:45	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-to-csv-1 waitfor delay '0:/ff42ef (from https://jsonformatter.org/recentLinksPage/xml/590)
+11:10:45	Error: 	"Bad Request" (400) at link https://jsonformatter.org/(select(0)from(select(sleep(15/705400 (from https://jsonformatter.org/recentLinksPage/xml/590)
+11:10:49	Error: 	"Not Found" (404) at link https://jsonformatter.org/xml-to-csv0 (from https://jsonformatter.org/recentLinksPage/xml/600)
+11:10:49	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-to-csv0'XOR(if(now()=sysda/914c2c (from https://jsonformatter.org/recentLinksPage/xml/600)
+11:10:49	Error: 	"Bad Request" (400) at link https://jsonformatter.org/if(now()=sysdate(),sleep(15),0/612abb (from https://jsonformatter.org/recentLinksPage/xml/600)
+11:10:49	Error: 	"Bad Request" (400) at link https://jsonformatter.org/@@kxQqq/2e2147 (from https://jsonformatter.org/recentLinksPage/xml/600)
+11:10:53	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-minify%2527%2522/'/ (from https://jsonformatter.org/recentLinksPage/xml/610)
+11:10:53	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-minify' (from https://jsonformatter.org/recentLinksPage/xml/610)
+11:10:53	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-minify'||DBMS_PIPE.RECEIVE/558bf9 (from https://jsonformatter.org/recentLinksPage/xml/610)
+11:10:53	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-minifyJngIANqZ')) OR 192=(/74dbc4 (from https://jsonformatter.org/recentLinksPage/xml/610)
+11:10:57	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-minifyra2lTUsQ') OR 996=(S/ee66e8 (from https://jsonformatter.org/recentLinksPage/xml/620)
+11:10:58	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-minifyHE3K8YzN' OR 356=(SE/d3a536 (from https://jsonformatter.org/recentLinksPage/xml/620)
+11:11:01	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-minifyJTmkj6aH'; waitfor d/f1cbba (from https://jsonformatter.org/recentLinksPage/xml/630)
+11:11:01	Error: 	"Forbidden" (403) at link https://jsonformatter.org/xml-minify-1 waitfor delay '0:/56e580 (from https://jsonformatter.org/recentLinksPage/xml/630)
+11:11:01	Error: 	"Bad Request" (400) at link https://jsonformatter.org/(select(0)from(select(sleep(15/a16d3b (from https://jsonformatter.org/recentLinksPage/xml/630)
+11:11:04	Error: 	"Not Found" (404) at link https://jsonformatter.org/xml-minify0 (from https://jsonformatter.org/recentLinksPage/xml/640)
+11:11:04	Error: 	"Bad Request" (400) at link https://jsonformatter.org/xml-minify0'XOR(if(now()=sysda/4df565 (from https://jsonformatter.org/recentLinksPage/xml/640)
+11:11:05	Error: 	"Bad Request" (400) at link https://jsonformatter.org/if(now()=sysdate(),sleep(15),0/42db2e (from https://jsonformatter.org/recentLinksPage/xml/640)
+11:13:37	Error: 	"Not Found" (404) at link https://jsonformatter.org/bxss.me/b818c0 (from https://jsonformatter.org/recentLinksPage/xml/1040)
+11:13:37	Error: 	"Not Found" (404) at link https://jsonformatter.org/c:/windows/win.ini/e0769f (from https://jsonformatter.org/recentLinksPage/xml/1040)
+11:13:38	Error: 	"Not Found" (404) at link https://jsonformatter.org//4979ba (from https://jsonformatter.org/recentLinksPage/xml/1050)
+11:13:38	Error: 	"Not Found" (404) at link https://jsonformatter.org//etc/shells/ef86a2 (from https://jsonformatter.org/recentLinksPage/xml/1050)
+11:13:38	Error: 	"Not Found" (404) at link https://jsonformatter.org/http://bxss.me/t/fit.txt?.jpg/5c4cce (from https://jsonformatter.org/recentLinksPage/xml/1050)
+11:13:38	Error: 	"Not Found" (404) at link https://jsonformatter.org/Http://bxss.me/t/fit.txt/46f583 (from https://jsonformatter.org/recentLinksPage/xml/1050)
+11:13:38	Error: 	"Not Found" (404) at link https://jsonformatter.org/1yrphmgdpgulaszriylqiipemefmac/a070d7 (from https://jsonformatter.org/recentLinksPage/xml/1050)
+11:13:38	Error: 	"Not Found" (404) at link https://jsonformatter.org/http://dicrpdbjmemujemfyopp.zz/900ed9 (from https://jsonformatter.org/recentLinksPage/xml/1050)
+11:13:45	Error: 	"Not Found" (404) at link https://jsonformatter.org/xml-to-csv9382991/a12ffc (from https://jsonformatter.org/recentLinksPage/xml/1070)
+11:13:49	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/1110 (from https://jsonformatter.org/recentLinksPage/xml/1080)
+11:13:50	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/1120 (from https://jsonformatter.org/recentLinksPage/xml/1090)
+11:13:50	Error: 	"Too Many Requests" (429) at link https://jsonformatter.org/recentLinksPage/xml/1130 (from https://jsonformatter.org/recentLinksPage/xml/1100)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 32 seconds : 1749 links scanned, 1527 files written (56284951 bytes overall) [15251302 bytes received at 26663 bytes/sec], 54855946 bytes transferred using HTTP compression in 1562 files, ratio 21%, 46.0 requests per connection
+(190 errors, 90 warnings, 0 messages)
