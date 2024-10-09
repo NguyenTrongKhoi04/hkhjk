@@ -6,11 +6,13 @@ function download(route) {
         var n = $.parseJSON(e);
         e = JSON.stringify(n, null, 2);
     }
-    console.log(document.getElementById("typeConvert").value);
+
+    const fileExtension = document.getElementById("typeConvert").value;
+    console.log(fileExtension);
     const data = {
         content_formatter: e,
         mode_formatter: t,
-        convertType: document.getElementById("typeConvert").value,
+        fileExtension: fileExtension,
     };
 
     fetch(route, {
@@ -34,6 +36,7 @@ function download(route) {
         .then(([blob, headers]) => {
             const url = window.URL.createObjectURL(blob);
             const contentDisposition = headers.get("Content-Disposition");
+            console.log(contentDisposition);
             let filename = contentDisposition
                 .match(/filename="([^"]+)"/)[1]
                 .replace("http://", "")
@@ -41,6 +44,7 @@ function download(route) {
             const a = document.createElement("a");
             a.style.display = "none";
             a.href = url;
+            console.log(filename);
             a.download = filename;
             document.body.appendChild(a);
             a.click();

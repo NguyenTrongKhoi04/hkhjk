@@ -5,7 +5,6 @@ function setTypeConvertSubmit(value) {
 
 function jsonToxml_PHP(route) {
     setTypeConvertSubmit("xml");
-    console.log(document.getElementById("typeConvert").value);
 
     let e = outputEditor.getText();
 

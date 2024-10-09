@@ -16,7 +16,14 @@ class FileHandlingController extends Controller
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
         $host = $_SERVER['HTTP_HOST'];
 
-        $filename = $protocol . $host . '/' . time() . '.txt';
+        $fileExtensions = [
+            'json' => '.txt',
+            'xml' => '.xml',
+        ];
+
+        $fileExtension = $fileExtensions[$request->input('fileExtension')] ?? '.txt';
+
+        $filename = $protocol . $host . '/' . time() . $fileExtension;
 
         return response()->stream(function () use ($contentFormatter) {
             echo $contentFormatter;
@@ -25,6 +32,4 @@ class FileHandlingController extends Controller
             'Content-Disposition' => 'attachment; filename="' . $filename . '"',
         ]);
     }
-
-    
 }
