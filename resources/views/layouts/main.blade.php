@@ -119,8 +119,11 @@
                                     onclick="jsonToxml_PHP('{{ route('convert.xml') }}')">JSON
                                     to XML</a>
                             </li>
-                            <li><a href="javascript:void(0)" onclick="jsonTocsv();">JSON to CSV</a></li>
-                            <li><a href="javascript:void(0)" onclick="jsonToyaml();">JSON to YAML</a></li>
+                            <li><a href="javascript:void(0)"
+                                    onclick="jsonToCSV_PHP('{{ route('convert.csv') }}')">JSON to
+                                    CSV</a></li>
+                            <li><a href="javascript:void(0)"
+                                    onclick="jsonToYaml_PHP('{{ route('convert.yaml') }}')">JSON to YAML</a></li>
                             <input type="hidden" value="json" id="typeConvert">
 
 
@@ -403,8 +406,12 @@
                     <div class="col-lg-12 text-center">
                         <hr class="star-primary">
                     </div>
-                    <div class="form-group"><button type="button" class="btn btn-primary btn-md" id="me"
-                            onclick="openFile();">Upload File</button></div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary btn-md" id="me"
+                            onclick="openFileUser();">Upload File</button>
+                    </div>
+                    <div id="fileContent"></div> <!-- Thêm phần để hiển thị nội dung tệp -->
+
                 </div>
                 <div class="modal-footer"><button type="button" id="loadFileClose" class="btn btn-default"
                         data-dismiss="modal">Close</button></div>
@@ -502,6 +509,7 @@
 
     <script src="{{ asset('app/js/download.js') }}"></script>
     <script src="{{ asset('app/js/convert_formatter.js') }}"></script>
+    <script src="{{ asset('app/js/readfile_upload.js') }}"></script>
 
 </body>
 <!-- Mirrored from jsonformatter.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Oct 2024 04:05:03 GMT -->

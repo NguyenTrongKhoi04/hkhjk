@@ -46,7 +46,7 @@
     <link rel="preconnect" href="https://api.btloader.com/" crossorigin />
     <link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net/" crossorigin />
     <link rel="stylesheet" href="{{ asset('theme/a.pub.network/jsonformatter-org/cls.css') }}">
-    
+
     <!-- Toastr CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
 
@@ -60,5 +60,6 @@
                 freestar.config.enabled_slots)
         }
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <script src="{{ asset('a.pub.network/jsonformatter-org/pubfig.min.js') }}" data-cfasync="false" async></script><!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 </head>

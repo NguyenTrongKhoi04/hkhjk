@@ -8,7 +8,7 @@ function download(route) {
     }
 
     const fileExtension = document.getElementById("typeConvert").value;
-    console.log(fileExtension);
+
     const data = {
         content_formatter: e,
         mode_formatter: t,

@@ -26,3 +26,5 @@ Route::post('/test', function (Request $request) {
 
 Route::post('/downloadFile', [FileHandlingController::class, 'download'])->name('downloadFile');
 Route::post('/convertXml', [ConvertDataController::class, 'convertXml'])->name('convert.xml');
+Route::post('/convertCSV', [ConvertDataController::class, 'convertCSV'])->name('convert.csv');
+Route::post('/convertYaml', [ConvertDataController::class, 'convertYaml'])->name('convert.yaml');

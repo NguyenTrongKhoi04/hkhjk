@@ -3,20 +3,23 @@ function setTypeConvertSubmit(value) {
     hiddenInput.value = value;
 }
 
-function jsonToxml_PHP(route) {
-    setTypeConvertSubmit("xml");
+function convertJson(route, format) {
+    setTypeConvertSubmit(format);
 
-    let e = outputEditor.getText();
+    let jsonText = inputEditor.getText();
+    const editorMode = outputEditor.getMode();
 
-    var t = outputEditor.getMode();
-    if ("tree" === t || "form" === t || "view" === t) {
-        var n = $.parseJSON(e);
-        e = JSON.stringify(n, null, 2);
+    if (["tree", "form", "view"].includes(editorMode)) {
+        try {
+            const parsedJson = JSON.parse(jsonText);
+            jsonText = JSON.stringify(parsedJson, null, 2);
+        } catch (error) {
+            console.error("Invalid JSON input:", error);
+            return;
+        }
     }
 
-    const data = {
-        content_formatter: e,
-    };
+    const data = { content_formatter: jsonText };
 
     fetch(route, {
         method: "POST",
@@ -36,8 +39,23 @@ function jsonToxml_PHP(route) {
             }
             return response.text();
         })
-        .then((data) => {
-            const formattedData = data;
-            outputEditor.setText(formattedData);
+        .then((responseData) => {
+            outputEditor.setMode("text");
+            outputEditor.setText(responseData);
+        })
+        .catch((error) => {
+            console.error("There was an error!", error);
         });
+}
+
+function jsonToxml_PHP(route) {
+    convertJson(route, "xml");
+}
+
+function jsonToCSV_PHP(route) {
+    convertJson(route, "csv");
+}
+
+function jsonToYaml_PHP(route) {
+    convertJson(route, "yaml");
 }
