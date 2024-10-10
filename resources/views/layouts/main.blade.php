@@ -400,9 +400,11 @@
                     <h4 class="modal-title">Load External Data</h4>
                 </div>
                 <div class="modal-body text-center">
-                    <div class="form-group"><input type="text" class="form-control" id="path"
-                            placeholder="Enter Url" autofocus><br><button type="button"
-                            class="btn btn-primary btn-md" onclick="loadUrl();">Load URL</button></div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="path" placeholder="Enter Url" autofocus>
+                        <br>
+                        <button type="button" class="btn btn-primary btn-md" onclick="loadUrl();">Load URL</button>
+                    </div>
                     <div class="col-lg-12 text-center">
                         <hr class="star-primary">
                     </div>
@@ -410,14 +412,22 @@
                         <button type="button" class="btn btn-primary btn-md" id="me"
                             onclick="openFileUser();">Upload File</button>
                     </div>
-                    <div id="fileContent"></div> <!-- Thêm phần để hiển thị nội dung tệp -->
 
+                    <div id="dropZone" class="form-group" onclick="openFileUser();"
+                        style="border: 2px dashed #ccc; padding: 20px; cursor: pointer;">
+                        Drag & Drop your file here or click to upload
+                    </div>
+
+                    <div id="fileContent"></div>
                 </div>
-                <div class="modal-footer"><button type="button" id="loadFileClose" class="btn btn-default"
-                        data-dismiss="modal">Close</button></div>
+                <div class="modal-footer">
+                    <button type="button" id="loadFileClose" class="btn btn-default"
+                        data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
+
     <div id="saveDialog" class="modal" role="dialog">
         <input type="hidden" id="id" value="1"><input type="hidden" id="dataUrl" value />
         <div class="modal-dialog">
@@ -496,6 +506,12 @@
             </div>
         </div>
     </div>
+
+    <div id="dropMask"
+        style="display: none !important; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; display: flex; align-items: center; justify-content: center; font-size: 24px; z-index: 9999;">
+        Drag and Drop File XML Or TXTHere
+    </div>
+
     <button type="button" id="openError" class="btn btn-info btn-lg hide" data-toggle="modal"
         data-target="#errorDialog">ErrorDialog</button>
     @include('layouts.footer')
