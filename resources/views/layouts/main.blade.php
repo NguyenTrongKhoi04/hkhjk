@@ -73,23 +73,16 @@
                 <div class="col-sm-8" id="msgDiv" style="float: right;"></div>
             </div>
             <div align="center" data-freestar-ad="__336x280 __970x90" id="jsonformatter_leaderboard_atf">
-                <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({
-                        placementName: "jsonformatter_leaderboard_atf",
-                        slotId: "jsonformatter_leaderboard_atf"
-                    });
-                </script>
             </div>
             <div class="row">
+
                 <div id="inputdiv" class="col-lg-5">
                     <div id="inputeditor" tabindex="-1" class="jsoneditor-manual"></div>
                 </div>
                 <div class="col-lg-2">
                     <button type="button" class="btn btn-xs btn-outline btn-block" href="#loadFileDialog"
                         data-toggle="modal" onclick="clearInput('loadFileDialog')"
-                        title="JSON URL or Browse File">Upload Data</button><br><button type="button"
-                        class="btn btn-xs btn-outline btn-block" onclick="validateJSON();"
-                        title="JSON Validator">Validate</button><br>
+                        title="JSON URL or Browse File">Upload Data</button><br>
                     <div class="form-group">
                         <select class="form-control" id="sel1">
                             <option value="2" selected="selected">2 Tab Space</option>
@@ -99,6 +92,9 @@
                     </div>
                     <button type="button" id="defaultaction" class="btn btn-xs btn-outline btn-block"
                         onclick="beautifyJSON();" title="JSON Formatter">Format / Beautify</button>
+                    <button type="button" class="btn btn-xs btn-outline btn-block"
+                        onclick="copyToClipboard_Button()">Copy to
+                        clipboard</button>
                     <div align="center" style="padding-top:5px" data-freestar-ad="__320x100 __300x250"
                         id="jsonformatter_medrec_middle">
                         <script data-cfasync="false" type="text/javascript">
@@ -526,6 +522,8 @@
     <script src="{{ asset('app/js/download.js') }}"></script>
     <script src="{{ asset('app/js/convert_formatter.js') }}"></script>
     <script src="{{ asset('app/js/readfile_upload.js') }}"></script>
+    <script src="{{ asset('app/js/drag_drop_file.js') }}"></script>
+    <script src="{{ asset('app/js/copy_data.js') }}"></script>
 
 </body>
 <!-- Mirrored from jsonformatter.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Oct 2024 04:05:03 GMT -->

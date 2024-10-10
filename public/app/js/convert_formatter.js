@@ -44,6 +44,7 @@ function convertJson(route, format) {
             outputEditor.setText(responseData);
         })
         .catch((error) => {
+            toastr.error("Data Json Invalid");
             console.error("There was an error!", error);
         });
 }

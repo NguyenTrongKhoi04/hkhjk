@@ -28,17 +28,21 @@ class ConvertDataController extends Controller
             ->header('Content-Type', 'application/xml');
     }
 
-    private function arrayToXml(array $data, &$xmlData)
+    private function arrayToXml($data, &$xmlData)
     {
-        foreach ($data as $key => $value) {
-            $key = preg_replace('/[^a-z_]/i', '_', $key);
-            $subnode = is_numeric($key) ? $xmlData->addChild('item') : $xmlData->addChild($key);
+        if (is_array($data)) {
+            foreach ($data as $key => $value) {
+                $nodeName = is_numeric($key) ? 'item' : $key;
+                $subnode = $xmlData->addChild($nodeName);
 
-            if (is_array($value)) {
-                $this->arrayToXml($value, $subnode);
-            } else {
-                $xmlData->addChild($key, htmlspecialchars((string)$value));
+                if (is_array($value) || is_object($value)) {
+                    $this->arrayToXml($value, $subnode);
+                } else {
+                    $subnode[0] = htmlspecialchars((string)$value);
+                }
             }
+        } else {
+            $xmlData[0] = htmlspecialchars((string)$data);
         }
     }
 
@@ -47,56 +51,43 @@ class ConvertDataController extends Controller
         $jsonData = $request->input('content_formatter');
         $arrayData = json_decode($jsonData, true);
 
-        if (!is_array($arrayData) || empty($arrayData)) {
+        // Kiểm tra định dạng JSON và sự tồn tại của mảng 'employee'
+        if (!isset($arrayData['employees']['employee']) || !is_array($arrayData['employees']['employee'])) {
             return response()->json(['error' => 'Invalid or empty JSON data'], 400);
         }
 
-        $csvOutput = $this->generateCSV($arrayData);
+        // Gọi hàm generateCSV để tạo CSV từ mảng 'employee'
+        $csvOutput = $this->generateCSV($arrayData['employees']['employee']);
 
         return response($csvOutput)
             ->header('Content-Type', 'text/csv')
-            ->header('Content-Disposition', 'attachment; filename="data.csv"');
+            ->header('Content-Disposition', 'attachment; filename="employees.csv"');
     }
 
     private function generateCSV(array $data): string
     {
+        // Mở stream tạm để ghi CSV
         $csvData = fopen('php://temp', 'r+');
-        $headers = $this->getHeaders($data);
-        fputcsv($csvData, $headers);
 
+        // Lấy các tiêu đề từ đối tượng đầu tiên
+        $headers = array_keys($data[0]);
+        fputcsv($csvData, $headers); // Ghi tiêu đề vào CSV
+
+        // Lặp qua từng mục 'employee' và ghi vào CSV
         foreach ($data as $item) {
-            fputcsv($csvData, $this->formatRow($item, $headers));
+            $row = [];
+            foreach ($headers as $header) {
+                $row[] = isset($item[$header]) ? $item[$header] : '';
+            }
+            fputcsv($csvData, $row);
         }
 
+        // Đọc lại nội dung CSV từ stream tạm
         rewind($csvData);
         $csvOutput = stream_get_contents($csvData);
         fclose($csvData);
 
         return $csvOutput;
-    }
-
-    private function getHeaders(array $data): array
-    {
-        $headers = [];
-        foreach ($data as $item) {
-            $headers = array_merge($headers, array_keys($item));
-        }
-        return array_unique($headers);
-    }
-
-    private function formatRow(array $item, array $headers): array
-    {
-        return array_map(function ($header) use ($item) {
-            return isset($item[$header]) ? $this->formatArrayValue($item[$header]) : '';
-        }, $headers);
-    }
-
-    private function formatArrayValue($value)
-    {
-        if (is_array($value)) {
-            return implode("|", array_map('json_encode', $value));
-        }
-        return (string)$value;
     }
 
     public function convertYaml(Request $request)
