@@ -399,7 +399,8 @@
                     <div class="form-group">
                         <input type="text" class="form-control" id="path" placeholder="Enter Url" autofocus>
                         <br>
-                        <button type="button" class="btn btn-primary btn-md" onclick="loadUrl();">Load URL</button>
+                        <button type="button" class="btn btn-primary btn-md" onclick="callDataUrl()">Load
+                            URL</button>
                     </div>
                     <div class="col-lg-12 text-center">
                         <hr class="star-primary">
@@ -519,10 +520,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
+    <script src="{{ asset('app/js/tool.js') }}"></script>
     <script src="{{ asset('app/js/download.js') }}"></script>
     <script src="{{ asset('app/js/convert_formatter.js') }}"></script>
     <script src="{{ asset('app/js/readfile_upload.js') }}"></script>
     <script src="{{ asset('app/js/drag_drop_file.js') }}"></script>
+    <script src="{{ asset('app/js/call_data_url.js') }}"></script>
     <script src="{{ asset('app/js/copy_data.js') }}"></script>
 
 </body>

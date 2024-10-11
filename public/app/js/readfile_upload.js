@@ -1,7 +1,7 @@
 function openFileUser() {
     const filePicker = document.createElement("input");
     filePicker.type = "file";
-    filePicker.accept = ".txt, .json, .csv";
+    filePicker.accept = ".txt, .json";
 
     filePicker.onchange = (event) => {
         const file = event.target.files[0];
@@ -14,23 +14,10 @@ function openFileUser() {
                 inputEditor.setText(content);
                 beautifyJSON();
 
-                document.getElementById("loadFileDialog").style.display =
-                    "none";
-                var backdrop = document.querySelector(".modal-backdrop");
-                if (backdrop) {
-                    backdrop.remove();
-                }
-
                 filePicker.value = "";
             };
 
-            // Reset UI after submit file
-            ["loadFileDialog", "page-top"].forEach((id) =>
-                document
-                    .getElementById(id)
-                    ?.classList.remove("in", "modal-open")
-                    ?.style.removeProperty("padding-right")
-            );
+            removeModal();
 
             reader.readAsText(file);
         } else {
