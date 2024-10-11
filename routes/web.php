@@ -31,4 +31,5 @@ Route::post('/convertCSV', [ConvertDataController::class, 'convertCSV'])->name('
 Route::post('/convertYaml', [ConvertDataController::class, 'convertYaml'])->name('convert.yaml');
 
 Route::get('/login', [UserController::class, 'index'])->name('login');
+Route::get('/dashboard', [UserController::class, 'dashboard'])->name('dashboard');
 // Route::post('/login', [UserController::class, 'requestLogin'])->name('requestLogin');
