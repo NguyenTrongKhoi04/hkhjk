@@ -1,3 +1,6 @@
+const button = document.getElementById("path");
+button.onclick = null;
+
 function callDataUrl() {
     const url_api = document.querySelector("#path").value.trim(); // Bỏ khoảng trắng thừa
     if (url_api) {
@@ -27,6 +30,3 @@ function callDataUrl() {
         toastr.error("Empty URL");
     }
 }
-
-const button = document.getElementById("path");
-button.onclick = null;
