@@ -51,12 +51,10 @@ class ConvertDataController extends Controller
         $jsonData = $request->input('content_formatter');
         $arrayData = json_decode($jsonData, true);
 
-        // Kiểm tra định dạng JSON và sự tồn tại của mảng 'employee'
         if (!isset($arrayData['employees']['employee']) || !is_array($arrayData['employees']['employee'])) {
             return response()->json(['error' => 'Invalid or empty JSON data'], 400);
         }
 
-        // Gọi hàm generateCSV để tạo CSV từ mảng 'employee'
         $csvOutput = $this->generateCSV($arrayData['employees']['employee']);
 
         return response($csvOutput)
@@ -66,14 +64,11 @@ class ConvertDataController extends Controller
 
     private function generateCSV(array $data): string
     {
-        // Mở stream tạm để ghi CSV
         $csvData = fopen('php://temp', 'r+');
 
-        // Lấy các tiêu đề từ đối tượng đầu tiên
         $headers = array_keys($data[0]);
-        fputcsv($csvData, $headers); // Ghi tiêu đề vào CSV
+        fputcsv($csvData, $headers);
 
-        // Lặp qua từng mục 'employee' và ghi vào CSV
         foreach ($data as $item) {
             $row = [];
             foreach ($headers as $header) {
@@ -82,7 +77,6 @@ class ConvertDataController extends Controller
             fputcsv($csvData, $row);
         }
 
-        // Đọc lại nội dung CSV từ stream tạm
         rewind($csvData);
         $csvOutput = stream_get_contents($csvData);
         fclose($csvData);

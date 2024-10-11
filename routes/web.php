@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ConvertDataController;
 use App\Http\Controllers\FileHandlingController;
+use App\Http\Controllers\User\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     // return view('welcome');
-    return view('layouts.main');
+    return view('users.index');
 });
 Route::post('/test', function (Request $request) {
     dd($request);
@@ -28,3 +29,6 @@ Route::post('/downloadFile', [FileHandlingController::class, 'download'])->name(
 Route::post('/convertXml', [ConvertDataController::class, 'convertXml'])->name('convert.xml');
 Route::post('/convertCSV', [ConvertDataController::class, 'convertCSV'])->name('convert.csv');
 Route::post('/convertYaml', [ConvertDataController::class, 'convertYaml'])->name('convert.yaml');
+
+Route::get('/login', [UserController::class, 'index'])->name('login');
+// Route::post('/login', [UserController::class, 'requestLogin'])->name('requestLogin');

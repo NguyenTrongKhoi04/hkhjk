@@ -29,7 +29,7 @@
     <link rel="canonical" href="index.html" />
     <link rel="shortcut icon" type="{{ asset('theme/jsonformatter.org/image.png') }}"
         href="{{ asset('theme/jsonformatter.org/img/favicon.png') }}" />
-    <title>Best JSON Formatter and JSON Validator: Online JSON Formatter</title>
+    <title>@yield('title')</title>
     <link href="https://plus.google.com/108734869867956898267/posts" rel="publisher" />
     <link href="{{ asset('theme/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css') }}"
         rel="stylesheet">
