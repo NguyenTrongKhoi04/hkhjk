@@ -20,6 +20,11 @@
         .error {
             color: red;
         }
+
+        input::placeholder {
+            color: #555;
+            opacity: 1;
+        }
     </style>
 </head>
 
@@ -31,24 +36,35 @@
 
             <!-- Login Form -->
             <div id="login-form">
-                <form id="login-form-elem" onsubmit="return validateLogin()" method="POST">
+                <form id="login-form-elem" action="{{ route('login') }}" onsubmit="return validateLogin()"
+                    method="POST">
                     @csrf
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" name="email"
-                            placeholder="Enter your email">
+                        <input type="email" class="form-control" id="email" name="email">
                         <div class="error" id="login-email-error" style="display: none;"></div>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password" name="password"
-                            placeholder="Enter your password">
+                        <input type="password" class="form-control" id="password" name="password">
                         <div class="error" id="login-password-error" style="display: none;"></div>
                     </div>
-                    <div class="d-grid">
+
+                    <!-- Thêm Flexbox cho Remember Me và Forgot Password? -->
+                    <div class="mb-3 d-flex justify-content-between align-items-center">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="remember-me" name="remember_me">
+                            <label class="form-check-label small" for="remember-me">Remember Me</label>
+                        </div>
+                        <a href="#" class="small" onclick="alert('Forgot Password functionality')">Forgot
+                            Password?</a>
+                    </div>
+
+                    <div class="d-grid mt-3">
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
                     </div>
                 </form>
+
                 <div class="text-center mt-3">
                     <small>Don't have an account? <a href="#" onclick="toggleForms()">Sign Up</a></small>
                     <br>
@@ -62,23 +78,20 @@
                     @csrf
                     <div class="mb-3">
                         <label for="signup-email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="signup-email" name="email"
-                            placeholder="Enter your email">
+                        <input type="email" class="form-control" id="signup-email" name="email">
                         <div class="error" id="signup-email-error" style="display: none;"></div>
                     </div>
                     <div class="mb-3">
                         <label for="signup-password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="signup-password" name="password"
-                            placeholder="Enter your password">
+                        <input type="password" class="form-control" id="signup-password" name="password">
                         <div class="error" id="signup-password-error" style="display: none;"></div>
                     </div>
                     <div class="mb-3">
                         <label for="confirm-password" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirm-password" name="confirm_password"
-                            placeholder="Confirm your password">
+                        <input type="password" class="form-control" id="confirm-password" name="confirm_password">
                         <div class="error" id="confirm-password-error" style="display: none;"></div>
                     </div>
-                    <div class="d-grid">
+                    <div class="d-grid mt-3">
                         <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
                     </div>
                 </form>
@@ -110,11 +123,31 @@
                 signupForm.style.display = 'none';
                 formTitle.textContent = 'Login';
                 title.textContent = "Login";
+
+                // Clear Sign-Up form fields and error messages when switching to Login
+                document.getElementById('signup-form-elem').reset();
+                clearErrors('signup');
             } else {
                 loginForm.style.display = 'none';
                 signupForm.style.display = 'block';
                 formTitle.textContent = 'Sign Up';
                 title.textContent = "Sign Up";
+
+                // Clear Login form fields and error messages when switching to Sign-Up
+                document.getElementById('login-form-elem').reset();
+                clearErrors('login');
+            }
+        }
+
+        // Function to clear error messages
+        function clearErrors(formType) {
+            if (formType === 'login') {
+                document.getElementById('login-email-error').style.display = 'none';
+                document.getElementById('login-password-error').style.display = 'none';
+            } else if (formType === 'signup') {
+                document.getElementById('signup-email-error').style.display = 'none';
+                document.getElementById('signup-password-error').style.display = 'none';
+                document.getElementById('confirm-password-error').style.display = 'none';
             }
         }
 
@@ -145,9 +178,6 @@
                 isValid = false;
             }
 
-            if (isValid) {
-                alert('Login successful!'); // Show alert on successful login
-            }
             return isValid; // Allow or prevent form submission
         }
 
@@ -197,9 +227,7 @@
 
         // Function to clear the signup form
         function clearSignupForm() {
-            document.getElementById('signup-email').value = '';
-            document.getElementById('signup-password').value = '';
-            document.getElementById('confirm-password').value = '';
+            document.getElementById('signup-form-elem').reset();
         }
     </script>
 </body>

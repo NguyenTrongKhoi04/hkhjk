@@ -1,6 +1,5 @@
 function download(route) {
     const e = outputEditor.getText();
-
     var t = outputEditor.getMode();
     if ("tree" === t || "form" === t || "view" === t) {
         var n = $.parseJSON(e);
@@ -8,7 +7,6 @@ function download(route) {
     }
 
     const fileExtension = document.getElementById("typeConvert").value;
-
     const data = {
         content_formatter: e,
         mode_formatter: t,

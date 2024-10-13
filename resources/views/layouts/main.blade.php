@@ -454,6 +454,7 @@
     <script src="{{ asset('app/js/drag_drop_file.js') }}"></script>
     <script src="{{ asset('app/js/call_data_url.js') }}"></script>
     <script src="{{ asset('app/js/copy_data.js') }}"></script>
+    <script src="{{ asset('app/js/save_format.js') }}"></script>
 
 </body>
 <!-- Mirrored from jsonformatter.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Oct 2024 04:05:03 GMT -->
